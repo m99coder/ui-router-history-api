@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MyApp">
+<head>
+	<meta charset="UTF-8">
+	<base href="/">
+	<title>Using UI-Router in conjunction with HTML5 History API</title>
+
+	<link href="node_modules/normalize.css/normalize.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+	<a ui-sref="hello" ui-sref-active="active">Hello</a> |
+	<a ui-sref="about" ui-sref-active="active">About</a>
+	<ui-view></ui-view>
+
+	<script src="node_modules/angular/angular.min.js"></script>
+	<script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<script src="src/app.js"></script>
+</body>
+</html>

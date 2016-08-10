@@ -1,0 +1,17 @@
+{
+  "name": "ui-router-history-api",
+  "version": "1.0.0",
+  "description": "Using UI-Router in conjunction with HTML5 History API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "author": "Marco Lehmann <m99coder@gmail.com> (http://m99.io/)",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "1.5.8",
+    "angular-ui-router": "1.0.0-beta.1",
+    "express": "4.14.0",
+    "normalize.css": "4.2.0"
+  }
+}

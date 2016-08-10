@@ -1,0 +1,19 @@
+
+body {
+	padding:2em 10em;
+}
+
+a,
+a:hover {
+	color: #3F71B7;
+	text-decoration: none;
+}
+
+a:hover {
+	border-bottom: 1px dotted #3F71B7;
+}
+
+a.active {
+	color: #333;
+	text-decoration: none;
+}
