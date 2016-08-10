@@ -2,6 +2,11 @@
 
 > Using UI-Router in conjunction with HTML5 History API
 
+## Screenshots
+
+![Hello](https://raw.githubusercontent.com/m99coder/ui-router-history-api/master/assets/img/hello.png)
+![About](https://raw.githubusercontent.com/m99coder/ui-router-history-api/master/assets/img/about.png)
+
 ## HTML5 History API Mode
 
 Take a look inside `server.js` and you will find a list of asset folders, which are
